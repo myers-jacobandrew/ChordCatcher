@@ -8,29 +8,21 @@ To get started with the project, you will need to clone this repository to your 
 
 ### Prerequisites
 
-The following software should be installed on your local machine:
+To run this project, you will need to install the following dependencies:
 
-- Python 3.x
-- Anaconda or Miniconda
+    Python 3.x
+    TensorFlow
+    NumPy
+    SciPy
+    Scikit-learn
+    Librosa
 
-### Installation
+You can install these dependencies by running pip install -r requirements.txt.
 
-1. Create a new conda environment for the project:
-
-```bash
-conda create --name chord_catcher python=3.8
-conda activate chord_catcher
-```
-
-2. Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Usage
 
-To use the Chord Catcher project, run the following command:
+To use the ChordCatcher project, run the following command:
 
 ```bash
 python main.py
