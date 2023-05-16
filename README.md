@@ -54,5 +54,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-This project was inspired by the GuitarSet dataset from Zenodo, and uses the VGGish feature extraction model developed by Google.
+This project was inspired by GuitarSet, a dataset of guitar recordings and annotations, which was used in the development of this project. 
+The creators of GuitarSet can be found at https://guitarset.weebly.com/.
+This project uses the VGGish feature extraction model developed by Google.
 
