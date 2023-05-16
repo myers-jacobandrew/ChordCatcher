@@ -1,4 +1,4 @@
-# Chord Catcher
+# ChordCatcher
 
 Chord Catcher is a project aimed at automatically recognizing and transcribing guitar chords from video and audio recordings. The project uses computer vision and machine learning techniques to analyze guitar playing footage and identify the chords being played.
 
