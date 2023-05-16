@@ -53,8 +53,9 @@ Contributions to the project are welcome! To contribute, follow the instructions
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
-
-This project was inspired by GuitarSet, a dataset of guitar recordings and annotations, which was used in the development of this project. 
-The creators of GuitarSet can be found at https://guitarset.weebly.com/.
-This project uses the VGGish feature extraction model developed by Google.
+  This project was inspired by the work of Qingyang Xi, Rachel Bittner, Xuzhou Ye, and Juan Pablo Bello from NYU's Music and Audio Research Lab, as well as Johan Pauwels from the Center for Digital Music at Queen Mary University of London, who created the GuitarSet dataset used in this project.  More information can be found at https://guitarset.weebly.com/.
+  
+  The VGGish model used in this project was developed by Shawn Hershey, Sourish Chaudhuri, Daniel PW Ellis, Jort F Gemmeke, Aren Jansen, and Channing Moore, and is available under the Apache License 2.0.
+  
+  The TensorFlow library was used to implement the machine learning algorithms in this project.
 
