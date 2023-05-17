@@ -1,0 +1,24 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local configuration files
+.env
+venv/
+/.vscode
+
+# Ignore data and model directories
+dataset/processed/
+dataset/models/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+logs/
+temp/
+Supplemental Data/
+
+
+# Ignore any other files or directories specific to your project
