@@ -10,6 +10,7 @@ venv/
 # Ignore data and model directories
 dataset/processed/
 dataset/models/
+dataset/raw/
 
 # Ignore IDE-specific files
 .idea/
