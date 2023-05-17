@@ -50,4 +50,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
   The VGGish model used in this project was developed by Shawn Hershey, Sourish Chaudhuri, Daniel PW Ellis, Jort F Gemmeke, Aren Jansen, and Channing Moore, and is available under the Apache License 2.0.
   
   The TensorFlow library was used to implement the machine learning algorithms in this project.
+  
+  Anticipating the use of Aayush Kandpal collection of Guitar_Chords_Finger_positions found [here](https://www.kaggle.com/datasets/aayushkandpal/guitar-chords-finger-positions?select=chord-fingers.csv).
 
