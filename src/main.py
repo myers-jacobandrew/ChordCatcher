@@ -10,7 +10,7 @@ from evaluate_model import evaluate_model
 
 
 # Set your dataset directory path
-dataset_dir = "\\ChordCatcher\\dataset\\raw"
+dataset_dir = "dataset/raw/"
 
 # Extract MFCC features from dataset
 features, labels = extract_features(dataset_dir)

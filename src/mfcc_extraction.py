@@ -13,19 +13,22 @@ def extract_features(file_path):
 
     return mfccs_scaled
 
-def parse_audio_files(parent_dir, sub_dirs, file_ext="*.wav"):
-    features, labels = np.empty((0, 13)), np.empty(0)
+import os
 
-    for label, sub_dir in enumerate(sub_dirs):
-        for fn in glob.glob(os.path.join(parent_dir, sub_dir, file_ext)):
-            mfccs = extract_features(fn)
-            features = np.vstack([features, mfccs])
-            labels = np.append(labels, fn.split(os.sep)[-1].split('_')[1])
+def parse_audio_files(directory):
+    file_list = []
+    label_list = []
+    for filename in os.listdir(directory):
+        if filename.endswith(".wav"):
+            label = filename.split("_")[2]  # Extract label after the second underscore
+            file_list.append(os.path.join(directory, filename))
+            label_list.append(label)
+    return file_list, label_list
 
-    return np.array(features), np.array(labels, dtype=np.int)
-
-# Example usage
+'''
 parent_dir = "dataset"
 sub_dirs = ["raw"]  # Use empty string to include all subdirectories
+'''
+directory = "dataset/raw/"
+file_list, label_list = parse_audio_files(directory)
 
-features, labels = parse_audio_files(parent_dir, sub_dirs)
