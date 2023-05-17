@@ -3,10 +3,10 @@ import numpy as np
 import tensorflow as tf
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
-from data.mfcc_extraction import extract_features
-from data.preprocess import preprocess_data
-from models.model_definition import create_model
-from models.evaluate_model import evaluate_model
+from mfcc_extraction import extract_features
+from preprocess import preprocess_data
+from model_definition import create_model
+from evaluate_model import evaluate_model
 
 
 # Set your dataset directory path

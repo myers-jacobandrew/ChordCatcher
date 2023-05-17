@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-def build_model(input_shape, num_classes):
+def create_model(input_shape, num_classes):
     model = tf.keras.Sequential([
         tf.keras.layers.Input(shape=input_shape),
         tf.keras.layers.Dense(64, activation="relu"),
