@@ -5,7 +5,7 @@ from mfcc_extraction import parse_audio_files
 
 def load_data(dataset_dir):
     # Parse audio files and extract features
-    sub_dirs = [""] # Use empty string to include all subdirectories
+    sub_dirs = [""] # empty string includes all subdirectories
     features, labels = parse_audio_files(dataset_dir, sub_dirs)
 
     # Load labels
